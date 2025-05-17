@@ -80,57 +80,197 @@ left: -999px;
 
 ## 🚀 Features
 
+A preview of what Urbano enables you to do
+
 <div class="grid cards" markdown>
 
--   ![](assets/images/asset_18.png){ width="300" loading=lazy .skip-lightbox  .center}
+-   ![](assets/images/download.png){ width="240" loading=lazy .skip-lightbox .center }
 
     ---
 
-    __USER-FRIENDLINESS__
-    
-    Clean and easy-to-use UI for urban wind flow analysis.
+    __DOWNLOAD GEOSPATIAL DATA__  
 
--   ![](assets/images/asset_19.png){ width="255" loading=lazy .skip-lightbox  .center} 
+    Download maps and points-of-interest data from **OpenStreetMap** directly in Grasshopper.
+
+-   ![](assets/images/import.png){ width="240" loading=lazy .skip-lightbox .center }
+
+    ---
+
+    __IMPORT & AGGREGATE DATA__  
+
+    Parse and merge layers from OSM or shapefiles into a single coherent project model.
+
+-   ![](assets/images/metadata.png){ width="240" loading=lazy .skip-lightbox .center }
 
     ---
 
-    __BUILT FOR REAL WORLD APPLICATIONS__
+    __LOOK-UP & MODIFY METADATA__  
 
-    Add realistic terrain to your simulation setup.
+    Attach, query and parametrically edit metadata on any geometric object.
 
--   ![](assets/images/asset_31.png){ width="410" loading=lazy .skip-lightbox  .center} 
-
-    ---
-    __OUTDOOR THERMAL COMFORT__
-
-    Annual outdoor thermal comfort assessment for climate-responsive masterplanning.
- 
--   ![](assets/images/asset_25.png){ width="300" loading=lazy .skip-lightbox  .center} 
-     
+-   ![](assets/images/build.png){ width="240" loading=lazy .skip-lightbox .center }
 
     ---
-    __SEAMLESS INTEGRATION__
 
-    Post-processing of custom surfaces for Air Flow Network integration into EnergyPlus.
-  
--   ![](assets/images/asset_22.png){ width="350" loading=lazy .skip-lightbox  .center}  
-    
+    __BUILD MOBILITY MODEL__  
 
-    ---
-    __STREAMLINED SIMULATION SETUP__
+    Auto-generate a topological street network and building access points ready for simulation.
 
-    Urban turntable for fast outdoor airflow analysis.
-
--   ![](assets/images/asset_29.png){ width="450" loading=lazy .skip-lightbox  .center} 
-    
+-   ![](assets/images/router.png){ width="240" loading=lazy .skip-lightbox .center }
 
     ---
-     __VALIDATED SIMULATION ENGINE__
 
-    Accurate results by using well-established solvers.
-  
+    __MULTI-MODAL ROUTING__  
+
+    Compute fastest paths for pedestrians, cyclists or cars between origins and destinations.
+
+-   ![](assets/images/tripengine.png){ width="240" loading=lazy .skip-lightbox .center }
+
+    ---
+
+    __SIMULATE WITH TRIP ENGINE__  
+
+    Launch activity-based simulations using Amenity Demand Profiles (ADP).
+
+-   ![](assets/images/metrics.png){ width="240" loading=lazy .skip-lightbox .center }
+
+    ---
+
+    __ANALYSE AMENITIES & STREETS__  
+
+    Evaluate Streetscore, Amenityscore and Walkscore to assess vitality and accessibility.
+
+-   ![](assets/images/rhino.png){ width="240" loading=lazy .skip-lightbox .center }
+
+    ---
+
+    __INTEGRATED CAD WORKFLOW__  
+
+    Bake geometry with metadata back to Rhino and visualise results instantly.
+
 </div>
 
+---
+
+## 📊 Metrics
+
+<div class="grid cards" markdown>
+
+-   ![](assets/images/adpmetrics.gif){ width="260" loading=lazy .skip-lightbox .center }
+
+    ---
+
+    __AMENITY DEMAND PROFILE__  
+
+    Spatiotemporal distribution of human activities; default data provided and fully editable.
+
+-   ![](assets/images/streetmetrics.gif){ width="260" loading=lazy .skip-lightbox .center }
+
+    ---
+
+    __STREETSCORE__  
+
+    Counts *Street Hits* to show how many simulated trips use each street segment.
+
+-   ![](assets/images/amenitymetrics.gif){ width="260" loading=lazy .skip-lightbox .center }
+
+    ---
+
+    __AMENITYSCORE__  
+
+    Compares amenity demand (Amenity Hits) with supply to reveal over- or under-served areas.
+
+-   ![](assets/images/walkscoremetrics.gif){ width="260" loading=lazy .skip-lightbox .center }
+
+    ---
+
+    __WALKSCORE__  
+
+    Calculates a 0-100 walkability rating with customisable weightings.
+
+</div>
+
+---
+
+## 🛠️ Samples
+
+Use cases with Urbano components
+
+<div class="grid cards" markdown>
+
+-   ![](assets/images/Template.gif){ width="300" loading=lazy .skip-lightbox .center }
+
+    ---
+
+    __URBANO TEMPLATES__  
+
+    *Import Urbano Template* – starter files that demonstrate each core workflow.
+
+-   ![](assets/images/Router.gif){ width="300" loading=lazy .skip-lightbox .center }
+
+    ---
+
+    __ROUTING__  
+
+    *Router* – compute shortest paths, distances and travel times for multiple traffic modes.
+
+-   ![](assets/images/Walkingdistance.gif){ width="300" loading=lazy .skip-lightbox .center }
+
+    ---
+
+    __ACCESSIBILITY WITHIN DISTANCE__  
+
+    *Router* – visualise all buildings reachable from an origin within a chosen threshold.
+
+-   ![](assets/images/Basic%20TripEngine.gif){ width="300" loading=lazy .skip-lightbox .center }
+
+    ---
+
+    __TRIPS FROM GIVEN ORIGIN__  
+
+    *ADP Trip Engine & Inspect Trip* – split population by ADP and send trips to valid amenities.
+
+-   ![](assets/images/Streetscore.gif){ width="300" loading=lazy .skip-lightbox .center }
+
+    ---
+
+    __STREETSCORE (ADD LINK)__  
+
+    *ADP Trip Engine & Street Hits* – add or remove links and see Street Hits update instantly.
+
+-   ![](assets/images/Amenityscore_addpop.gif){ width="300" loading=lazy .skip-lightbox .center }
+
+    ---
+
+    __AMENITYSCORE (ADD POPULATION)__  
+
+    *ADP Trip Engine & Amenity Hits* – add building occupants and observe nearby amenity utilisation.
+
+-   ![](assets/images/Amenityscore_addamen.gif){ width="300" loading=lazy .skip-lightbox .center }
+
+    ---
+
+    __AMENITYSCORE (ADD AMENITIES)__  
+
+    *ADP Trip Engine & Amenity Hits* – insert new amenities to balance supply and demand.
+
+-   ![](assets/images/Time%20Simulation.gif){ width="300" loading=lazy .skip-lightbox .center }
+
+    ---
+
+    __AMENITYSCORE (ADP TIME STEPS)__  
+
+    *ADP & Trip Engine* – run 24-hour simulations to capture temporal variations.
+
+-   ![](assets/images/Walkscore.gif){ width="300" loading=lazy .skip-lightbox .center }
+
+    ---
+
+    __WALKSCORE (ADD AMENITIES)__  
+
+    *Trip Engine & Walkscore* – add missing amenities to improve walkability scores.
+
+</div>
 
 
 ---
