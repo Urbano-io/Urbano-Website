@@ -71,7 +71,7 @@ left: -999px;
 ![Urbano Example Canvas](assets/images/combo.jpg){.skip-lightbox}
 
 <div align="center">
-  <a href="https://docs.urbano.com/" class="md-button md-button--primary">Get Started</a>
+  <a href="https://docs.urbano.io/" class="md-button md-button--primary">Get Started</a>
   <a href="https://www.food4rhino.com/en/app/urbano" class="md-button">Download</a>
 </div>
 
