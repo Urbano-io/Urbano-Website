@@ -1,7 +1,7 @@
 site_name: Urbano
 site_description: 'Mobility modelling and simulation in Rhinoceros and Grasshopper'
 site_url: https://urbano.io
-repo_url: https://github.com/Urbano.io/Urbano-Website
+repo_url: https://github.com/Urbano-io/Urbano-Website
 edit_uri: blob/main/docs/
 site_author: Patrick Kastner
 copyright: >-
