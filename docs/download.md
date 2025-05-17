@@ -23,7 +23,7 @@
 
 To download the latest version of Urbano, please fill out the following information form. Any information you provide here will only be used by the Urbano team and will not be shared with any other individuals or organizations.
 
-Depending on the desired use case, you must install additional software, [see here](https://docs.urbano.com).
+Depending on the desired use case, you must install additional software, [see here](https://docs.urbano.io).
 
 
 <!-- Begin Brevo Form -->
