@@ -327,16 +327,13 @@ Urbano is being developed as a cross-disciplinary project through a collaboratio
 
 <div class="grid" markdown>
 
-![AAP](assets/images/AAP_logo_stacked.png){width="100" .skip-lightbox loading=lazy .center} 
+![AAP](assets/images/AAP_logo_stacked.png){width="150" .skip-lightbox loading=lazy .center} 
 { .card }
 
-![Cornell](assets/images/cornell.svg){width="75" .skip-lightbox loading=lazy .center} 
+![Cornell](assets/images/cornell.svg){width="125" .skip-lightbox loading=lazy .center} 
 { .card }
 
-![Atkinson](assets/images/atkinson.png){width="200" .skip-lightbox loading=lazy .center}
-{ .card }
-
-![SysEn](assets/images/logo-systemseng.svg){width="250" .skip-lightbox loading=lazy .center}
+![Atkinson](assets/images/atkinson.png){width="325" .skip-lightbox loading=lazy .center}
 { .card }
 
 </div>
