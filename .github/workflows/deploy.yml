@@ -57,5 +57,5 @@ jobs:
 
       - name: Build & Deploy
         run: |
-          echo 'www.urbano.io' > ./CNAME
+          echo 'urbano.io' > ./CNAME
           mkdocs gh-deploy --force
