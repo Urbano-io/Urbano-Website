@@ -72,7 +72,8 @@ left: -999px;
 
 <div align="center">
   <a href="https://docs.urbano.io/" class="md-button md-button--primary">Get Started</a>
-  <a href="https://www.food4rhino.com/en/app/urbano" class="md-button">Download</a>
+  <a href="https://www.food4rhino.com/en/app/urbano" class="md-button">Download V1</a>
+  <a href="https://www.rhinopackages.com/?search=urbano2" class="md-button">Download V2</a>
 </div>
 
 

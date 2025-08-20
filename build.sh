@@ -1,1 +1,1 @@
-docker build . -f  Dockerfile -t eddy3d-mkdocs-material
+docker build . -f  Dockerfile -t urbano-mkdocs-material
