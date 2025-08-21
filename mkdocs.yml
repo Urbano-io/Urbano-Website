@@ -13,7 +13,7 @@ extra_css:
 nav:
   - Home: index.md
   - Publications: publications.md
-  - Download: download.md
+  #- Download: download.md
   - Documentation: "https://docs.urbano.io"
   # - Support: support.md
 
