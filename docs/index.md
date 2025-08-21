@@ -288,6 +288,11 @@ Use cases with Urbano components
     <img src="assets/images/team/yang.jpg" alt="Yang Yang" loading="lazy">
     <figcaption class="md-typeset">Yang Yang</figcaption>
   </figure>
+  
+  <figure class="mdx-users__testimonial black-and-white">
+    <img src="assets/images/team/kastner.jpg" alt="Yang Yang" loading="lazy">
+    <figcaption class="md-typeset">Patrick Kastner</figcaption>
+  </figure>
 
 <figure class="mdx-users__testimonial black-and-white">
     <img src="assets/images/team/dogan.jpg" alt="Timur Dogan" loading="lazy">
