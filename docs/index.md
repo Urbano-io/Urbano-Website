@@ -63,7 +63,7 @@ left: -999px;
 </figure>
 
 <p style="text-align: center; font-size: 24px;">
-  Mobility modelling and simulation in Rhino & Grasshopper
+  Site and mobility analysis in Rhino & Grasshopper. 
 </p>
 
 <br>
