@@ -8,7 +8,48 @@ Publications related to Urbano are listed below, grouped by modules. See [Resear
 
 ## Urbano v2
 
-More to follow.
+<div class="annotate" markdown>
+- @yan2025modeling (1)(2)
+</div>
+1. Yan, X., Dogan, T., & Yang, Y. (2025). Modeling the Joint Effects of Thermal Comfort, Built Environment, and Socio-Demographics on Active Mobility: A Data-Driven Approach. *2025 Annual Modeling and Simulation Conference (ANNSIM)*.
+2.  
+```bibtex
+@inproceedings{yan2025modeling,
+  title={Modeling the Joint Effects of Thermal Comfort, Built Environment, and Socio-Demographics on Active Mobility: A Data-Driven Approach},
+  author={Yan, Xiaoyue and Dogan, Timur and Yang, Yang},
+  booktitle={2025 Annual Modeling and Simulation Conference (ANNSIM)},
+  year={2025}
+}
+```
+
+<div class="annotate" markdown>
+- @dogan2025teaching (1)(2)
+</div>
+1. Dogan, T., & Yang, Y. (2025). Computational Urban Design: A Simulation and Data-driven Approach to Designing a Sustainable Built Environment. In *Teaching Carbon Neutral Design in North America: Twenty Award-Winning Architectural Design Studio Methodologies*.
+2.  
+```bibtex
+@incollection{dogan2025teaching,
+  title={Computational Urban Design: A Simulation and Data-driven Approach to Designing a Sustainable Built Environment},
+  author={Dogan, Timur and Yang, Yang},
+  booktitle={Teaching Carbon Neutral Design in North America: Twenty Award-Winning Architectural Design Studio Methodologies},
+  chapter={19},
+  year={2025}
+}
+```
+
+<div class="annotate" markdown>
+- @dogan2025computational (1)(2)
+</div>
+1. Dogan, T., & Yang, Y. (2025). Computational Urban Design. *Chapter*.
+2.  
+```bibtex
+@article{dogan2025computational,
+  title={Computational Urban Design},
+  author={Dogan, Timur and Yang, Yang},
+  journal={Chapter},
+  year={2025}
+}
+```
 
 ## Urbano v1
 
