@@ -21,4 +21,5 @@ dependencies = [
   "mkdocs-section-index",
   "mkdocs-include-markdown-plugin",
   "tzdata",
+  "pypandoc>=1.16.2",
 ]

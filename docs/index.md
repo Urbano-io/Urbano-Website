@@ -23,8 +23,15 @@ hide:
 }
 /* find better solution for this later */
 .md-typeset h1 {
-position: absolute;
-left: -999px;
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
 }
 
 .mdx-users {
@@ -72,8 +79,8 @@ left: -999px;
 
 <div align="center">
   <a href="https://docs.urbano.io/" class="md-button md-button--primary">Get Started</a>
-  <a href="https://www.food4rhino.com/en/app/urbano" class="md-button">Download V1</a>
-  <a href="https://rhinopackages.github.io/?search=urbano&sort=2&p=Urbano2" class="md-button">Download V2</a>
+  <a href="https://www.food4rhino.com/en/app/urbano" class="md-button" target="_blank" rel="noopener noreferrer" aria-label="Download V1 (opens in a new tab)">Download V1</a>
+  <a href="https://rhinopackages.github.io/?search=urbano&sort=2&p=Urbano2" class="md-button" target="_blank" rel="noopener noreferrer" aria-label="Download V2 (opens in a new tab)">Download V2</a>
 </div>
 
 
@@ -85,7 +92,7 @@ A preview of what Urbano enables you to do
 
 <div class="grid cards" markdown>
 
--   ![](assets/images/download.png){ width="240" loading=lazy .skip-lightbox .center }
+-   ![Screenshot of Download Geospatial Data feature](assets/images/download.png){ width="240" loading=lazy .skip-lightbox .center }
 
     ---
 
@@ -93,7 +100,7 @@ A preview of what Urbano enables you to do
 
     Download maps and points-of-interest data from **OpenStreetMap** directly in Grasshopper.
 
--   ![](assets/images/import.png){ width="240" loading=lazy .skip-lightbox .center }
+-   ![Screenshot of Import & Aggregate Data feature](assets/images/import.png){ width="240" loading=lazy .skip-lightbox .center }
 
     ---
 
@@ -101,7 +108,7 @@ A preview of what Urbano enables you to do
 
     Parse and merge layers from OSM or shapefiles into a single coherent project model.
 
--   ![](assets/images/metadata.png){ width="240" loading=lazy .skip-lightbox .center }
+-   ![Screenshot of Look-up & Modify Metadata feature](assets/images/metadata.png){ width="240" loading=lazy .skip-lightbox .center }
 
     ---
 
@@ -109,7 +116,7 @@ A preview of what Urbano enables you to do
 
     Attach, query and parametrically edit metadata on any geometric object.
 
--   ![](assets/images/build.png){ width="240" loading=lazy .skip-lightbox .center }
+-   ![Screenshot of Build Mobility Model feature](assets/images/build.png){ width="240" loading=lazy .skip-lightbox .center }
 
     ---
 
@@ -117,7 +124,7 @@ A preview of what Urbano enables you to do
 
     Auto-generate a topological street network and building access points ready for simulation.
 
--   ![](assets/images/router.png){ width="240" loading=lazy .skip-lightbox .center }
+-   ![Screenshot of Multi-modal Routing feature](assets/images/router.png){ width="240" loading=lazy .skip-lightbox .center }
 
     ---
 
@@ -125,7 +132,7 @@ A preview of what Urbano enables you to do
 
     Compute fastest paths for pedestrians, cyclists or cars between origins and destinations.
 
--   ![](assets/images/tripengine.png){ width="240" loading=lazy .skip-lightbox .center }
+-   ![Screenshot of Simulate with Trip Engine feature](assets/images/tripengine.png){ width="240" loading=lazy .skip-lightbox .center }
 
     ---
 
@@ -133,7 +140,7 @@ A preview of what Urbano enables you to do
 
     Launch activity-based simulations using Amenity Demand Profiles (ADP).
 
--   ![](assets/images/metrics.png){ width="240" loading=lazy .skip-lightbox .center }
+-   ![Screenshot of Analyse Amenities & Streets feature](assets/images/metrics.png){ width="240" loading=lazy .skip-lightbox .center }
 
     ---
 
@@ -141,7 +148,7 @@ A preview of what Urbano enables you to do
 
     Evaluate Streetscore, Amenityscore and Walkscore to assess vitality and accessibility.
 
--   ![](assets/images/rhino.png){ width="240" loading=lazy .skip-lightbox .center }
+-   ![Screenshot of Integrated CAD Workflow feature](assets/images/rhino.png){ width="240" loading=lazy .skip-lightbox .center }
 
     ---
 
@@ -290,7 +297,7 @@ Use cases with Urbano components
   </figure>
   
   <figure class="mdx-users__testimonial black-and-white">
-    <img src="assets/images/team/kastner.jpg" alt="Yang Yang" loading="lazy">
+    <img src="assets/images/team/kastner.jpg" alt="Patrick Kastner" loading="lazy">
     <figcaption class="md-typeset">Patrick Kastner</figcaption>
   </figure>
 

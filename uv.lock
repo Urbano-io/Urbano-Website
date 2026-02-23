@@ -1050,6 +1050,7 @@ dependencies = [
     { name = "mkdocs-section-index" },
     { name = "mkdocs-title-casing-plugin" },
     { name = "mkdocs-video" },
+    { name = "pypandoc" },
     { name = "tzdata" },
 ]
 
@@ -1071,6 +1072,7 @@ requires-dist = [
     { name = "mkdocs-section-index" },
     { name = "mkdocs-title-casing-plugin" },
     { name = "mkdocs-video" },
+    { name = "pypandoc", specifier = ">=1.16.2" },
     { name = "tzdata" },
 ]
 
