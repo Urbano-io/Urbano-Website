@@ -4,6 +4,8 @@ hide:
   - toc
 ---
 
+# Urbano {.sr-only}
+
 <style>
 .md-content__button {
     display: none;
@@ -20,18 +22,6 @@ hide:
 .center-text {
   text-align: center;
   display: block;
-}
-/* find better solution for this later */
-.md-typeset h1 {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  padding: 0;
-  margin: -1px;
-  overflow: hidden;
-  clip: rect(0, 0, 0, 0);
-  white-space: nowrap;
-  border-width: 0;
 }
 
 .mdx-users {
