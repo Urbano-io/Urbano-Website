@@ -67,10 +67,12 @@ hide:
 
 ![Urbano Example Canvas](assets/images/combo.jpg){.skip-lightbox}
 
-<div align="center">
-  <a href="https://docs.urbano.io/" class="md-button md-button--primary">Get Started</a>
-  <a href="https://www.food4rhino.com/en/app/urbano" class="md-button" target="_blank" rel="noopener noreferrer" aria-label="Download V1 (opens in a new tab)">Download V1</a>
-  <a href="https://rhinopackages.github.io/?search=urbano&sort=2&p=Urbano2" class="md-button" target="_blank" rel="noopener noreferrer" aria-label="Download V2 (opens in a new tab)">Download V2</a>
+<div align="center" markdown>
+
+[:material-rocket-launch: Get Started](https://docs.urbano.io/){ .md-button .md-button--primary }
+[:material-download: Download V1](https://www.food4rhino.com/en/app/urbano){ .md-button target="_blank" rel="noopener noreferrer" aria-label="Download V1 (opens in a new tab)" }
+[:material-download: Download V2](https://rhinopackages.github.io/?search=urbano&sort=2&p=Urbano2){ .md-button target="_blank" rel="noopener noreferrer" aria-label="Download V2 (opens in a new tab)" }
+
 </div>
 
 
