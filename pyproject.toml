@@ -22,4 +22,10 @@ dependencies = [
   "mkdocs-include-markdown-plugin",
   "tzdata",
   "pypandoc>=1.16.2",
+  "pypandoc-binary>=1.16.2",
+]
+
+[dependency-groups]
+dev = [
+    "playwright>=1.58.0",
 ]

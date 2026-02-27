@@ -34,7 +34,6 @@ hide:
 .mdx-users__testimonial {
   text-align: center;
   max-width: 220px;         /* Limits width so they stay aligned */
-  pointer-events: none; /* Disables mouse clicks and other pointer interactions */
 }
 
 .mdx-users__testimonial img {
@@ -42,16 +41,26 @@ hide:
   border: 3px solid #ddd;
   width: 150px;
   height: 150px;
-  pointer-events: none; /* Disables mouse clicks and other pointer interactions */
+  transition: transform 0.3s ease-in-out, border-color 0.3s ease-in-out;
 }
+
+.mdx-users__testimonial:hover img {
+    transform: scale(1.05);
+    border-color: #007acc;
+}
+
 .center {
     display: block;
     margin: 0 auto;
 }
 .black-and-white {
    filter: grayscale(100%);
+   transition: filter 0.3s ease-in-out;
    /* Optionally add vendor prefixes for older browser support */
    /* -webkit-filter: grayscale(100%); */
+}
+.black-and-white:hover {
+    filter: grayscale(0%);
 }
 </style>
 
@@ -284,17 +293,17 @@ Use cases with Urbano components
 <div class="mdx-users">
 
 <figure class="mdx-users__testimonial black-and-white">
-    <img src="assets/images/team/yang.jpg" alt="Yang Yang" loading="lazy">
+    <img src="assets/images/team/yang.jpg" alt="Yang Yang" loading="lazy" class="skip-lightbox">
     <figcaption class="md-typeset">Yang Yang</figcaption>
   </figure>
   
   <figure class="mdx-users__testimonial black-and-white">
-    <img src="assets/images/team/kastner.jpg" alt="Patrick Kastner" loading="lazy">
+    <img src="assets/images/team/kastner.jpg" alt="Patrick Kastner" loading="lazy" class="skip-lightbox">
     <figcaption class="md-typeset">Patrick Kastner</figcaption>
   </figure>
 
 <figure class="mdx-users__testimonial black-and-white">
-    <img src="assets/images/team/dogan.jpg" alt="Timur Dogan" loading="lazy">
+    <img src="assets/images/team/dogan.jpg" alt="Timur Dogan" loading="lazy" class="skip-lightbox">
     <figcaption class="md-typeset">Timur Dogan</figcaption>
   </figure>
 
@@ -305,12 +314,12 @@ Use cases with Urbano components
 <div class="mdx-users">
 
 <figure class="mdx-users__testimonial black-and-white">
-    <img src="assets/images/team/saraf.jpg" alt="Nikhil Saraf" loading="lazy">
+    <img src="assets/images/team/saraf.jpg" alt="Nikhil Saraf" loading="lazy" class="skip-lightbox">
     <figcaption class="md-typeset">Nikhil Saraf</figcaption>
   </figure>
 
 <figure class="mdx-users__testimonial black-and-white">
-    <img src="assets/images/team/samitha.jpg" alt="Samitha Samaranayake" loading="lazy">
+    <img src="assets/images/team/samitha.jpg" alt="Samitha Samaranayake" loading="lazy" class="skip-lightbox">
     <figcaption class="md-typeset">Samitha Samaranayake
 </figcaption>
   </figure>
