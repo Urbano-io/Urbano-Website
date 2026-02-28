@@ -19,10 +19,10 @@
 <!-- Announcement bar -->
 {% block announce %}
   For updates follow <strong>Urbano</strong> on
-  <a rel="me" href="https://www.linkedin.com/company/urbano-io">
-    <span class="twemoji linkedin">
+  <a rel="me noopener noreferrer" target="_blank" href="https://www.linkedin.com/company/urbano-io">
+    <span class="twemoji linkedin" aria-hidden="true">
       {% include ".icons/fontawesome/brands/linkedin.svg" %}
     </span>
-    <strong>LinkedIn</strong>
+    <strong>LinkedIn</strong><span class="sr-only"> (opens in a new tab)</span>
   </a>
 {% endblock %}
