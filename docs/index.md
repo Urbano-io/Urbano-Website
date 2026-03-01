@@ -293,17 +293,17 @@ Use cases with Urbano components
 <div class="mdx-users">
 
 <figure class="mdx-users__testimonial black-and-white">
-    <img src="assets/images/team/yang.jpg" alt="Yang Yang" loading="lazy" class="skip-lightbox">
+    <img src="assets/images/team/yang.jpg" alt="" loading="lazy" class="skip-lightbox">
     <figcaption class="md-typeset">Yang Yang</figcaption>
   </figure>
   
   <figure class="mdx-users__testimonial black-and-white">
-    <img src="assets/images/team/kastner.jpg" alt="Patrick Kastner" loading="lazy" class="skip-lightbox">
+    <img src="assets/images/team/kastner.jpg" alt="" loading="lazy" class="skip-lightbox">
     <figcaption class="md-typeset">Patrick Kastner</figcaption>
   </figure>
 
 <figure class="mdx-users__testimonial black-and-white">
-    <img src="assets/images/team/dogan.jpg" alt="Timur Dogan" loading="lazy" class="skip-lightbox">
+    <img src="assets/images/team/dogan.jpg" alt="" loading="lazy" class="skip-lightbox">
     <figcaption class="md-typeset">Timur Dogan</figcaption>
   </figure>
 
@@ -314,12 +314,12 @@ Use cases with Urbano components
 <div class="mdx-users">
 
 <figure class="mdx-users__testimonial black-and-white">
-    <img src="assets/images/team/saraf.jpg" alt="Nikhil Saraf" loading="lazy" class="skip-lightbox">
+    <img src="assets/images/team/saraf.jpg" alt="" loading="lazy" class="skip-lightbox">
     <figcaption class="md-typeset">Nikhil Saraf</figcaption>
   </figure>
 
 <figure class="mdx-users__testimonial black-and-white">
-    <img src="assets/images/team/samitha.jpg" alt="Samitha Samaranayake" loading="lazy" class="skip-lightbox">
+    <img src="assets/images/team/samitha.jpg" alt="" loading="lazy" class="skip-lightbox">
     <figcaption class="md-typeset">Samitha Samaranayake
 </figcaption>
   </figure>
