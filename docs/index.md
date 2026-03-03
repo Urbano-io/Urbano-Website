@@ -14,10 +14,21 @@ hide:
   font-size: 16px;
   font-weight: bold;
   padding: 12px 24px;
+  transition: all 0.2s ease-in-out;
+}
+.md-button:hover,
+.md-button:focus-visible {
+  outline: 2px solid currentColor;
+  outline-offset: 2px;
 }
 .md-button--primary {
   background-color: #007acc;
   color: white;
+}
+.md-button--primary:hover,
+.md-button--primary:focus-visible {
+  background-color: #005f9e;
+  outline-color: #005f9e;
 }
 .center-text {
   text-align: center;
