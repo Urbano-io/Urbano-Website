@@ -339,13 +339,13 @@ Use cases with Urbano components
 
 ---
 
-![SysEn](assets/images/logo-systemseng.svg){width="350" .skip-lightbox align=left loading=lazy}  
-![ESLAB](assets/images/eslab.svg){width="320" .skip-lightbox align=right loading=lazy}
-<center markdown="1">
-:octicons-plus-24:
-</center>
+<div style="display: flex; justify-content: center; align-items: center; flex-wrap: wrap; gap: 2rem; margin: 3rem 0;" markdown>
 
-<br><br><br>
+![SysEn](assets/images/logo-systemseng.svg){width="350" .skip-lightbox loading=lazy}
+:octicons-plus-24:
+![ESLAB](assets/images/eslab.svg){width="320" .skip-lightbox loading=lazy}
+
+</div>
 
 Urbano is being developed as a cross-disciplinary project through a collaboration between the Environmental Systems Lab at Cornell AAP, and the Systems Engineering department at Cornell Engineering.
 
