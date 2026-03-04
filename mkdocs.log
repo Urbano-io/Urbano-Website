@@ -1,0 +1,12 @@
+INFO    -  Building documentation...
+INFO    -  CSL file downladed from URL https://raw.githubusercontent.com/citation-style-language/styles/refs/heads/master/american-medical-association-no-url.csl to temporary file (<tempfile._TemporaryFileWrapper object at 0x7ff5c776d730>)
+INFO    -  Loading data from bib files: ['/app/papers.bib']
+INFO    -  Cleaning site directory
+WARNING -  Citing unknown reference key inproceedings
+WARNING -  Citing unknown reference key incollection
+WARNING -  Citing unknown reference key article
+WARNING -  Citing unknown reference key inproceedings
+WARNING -  Citing unknown reference key article
+WARNING -  Citing unknown reference key article
+INFO    -  Documentation built in 1.45 seconds
+INFO    -  [03:40:04] Serving on http://127.0.0.1:8000/
