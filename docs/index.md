@@ -87,7 +87,7 @@ hide:
 
 ![Urbano Example Canvas](assets/images/combo.jpg){.skip-lightbox}
 
-<div align="center" markdown>
+<div style="display: flex; justify-content: center; align-items: center; flex-wrap: wrap; gap: 1rem;" markdown>
 
 [:material-rocket-launch: Get Started](https://docs.urbano.io/){ .md-button .md-button--primary }
 [:material-download: Download V1](https://www.food4rhino.com/en/app/urbano){ .md-button target="_blank" rel="noopener noreferrer" aria-label="Download V1 (opens in a new tab)" }
