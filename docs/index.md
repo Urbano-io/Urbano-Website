@@ -104,7 +104,7 @@ A preview of what Urbano enables you to do
 
 <div class="grid cards" markdown>
 
--   ![Screenshot of Download Geospatial Data feature](assets/images/download.png){ width="240" loading=lazy .skip-lightbox .center }
+-   ![Download Geospatial Data feature](assets/images/download.png){ width="240" loading=lazy .skip-lightbox .center }
 
     ---
 
@@ -112,7 +112,7 @@ A preview of what Urbano enables you to do
 
     Download maps and points-of-interest data from **OpenStreetMap** directly in Grasshopper.
 
--   ![Screenshot of Import & Aggregate Data feature](assets/images/import.png){ width="240" loading=lazy .skip-lightbox .center }
+-   ![Import and Aggregate Data feature](assets/images/import.png){ width="240" loading=lazy .skip-lightbox .center }
 
     ---
 
@@ -120,7 +120,7 @@ A preview of what Urbano enables you to do
 
     Parse and merge layers from OSM or shapefiles into a single coherent project model.
 
--   ![Screenshot of Look-up & Modify Metadata feature](assets/images/metadata.png){ width="240" loading=lazy .skip-lightbox .center }
+-   ![Look-up and Modify Metadata feature](assets/images/metadata.png){ width="240" loading=lazy .skip-lightbox .center }
 
     ---
 
@@ -128,7 +128,7 @@ A preview of what Urbano enables you to do
 
     Attach, query and parametrically edit metadata on any geometric object.
 
--   ![Screenshot of Build Mobility Model feature](assets/images/build.png){ width="240" loading=lazy .skip-lightbox .center }
+-   ![Build Mobility Model feature](assets/images/build.png){ width="240" loading=lazy .skip-lightbox .center }
 
     ---
 
@@ -136,7 +136,7 @@ A preview of what Urbano enables you to do
 
     Auto-generate a topological street network and building access points ready for simulation.
 
--   ![Screenshot of Multi-modal Routing feature](assets/images/router.png){ width="240" loading=lazy .skip-lightbox .center }
+-   ![Multi-modal Routing feature](assets/images/router.png){ width="240" loading=lazy .skip-lightbox .center }
 
     ---
 
@@ -144,7 +144,7 @@ A preview of what Urbano enables you to do
 
     Compute fastest paths for pedestrians, cyclists or cars between origins and destinations.
 
--   ![Screenshot of Simulate with Trip Engine feature](assets/images/tripengine.png){ width="240" loading=lazy .skip-lightbox .center }
+-   ![Simulate with Trip Engine feature](assets/images/tripengine.png){ width="240" loading=lazy .skip-lightbox .center }
 
     ---
 
@@ -152,7 +152,7 @@ A preview of what Urbano enables you to do
 
     Launch activity-based simulations using Amenity Demand Profiles (ADP).
 
--   ![Screenshot of Analyse Amenities & Streets feature](assets/images/metrics.png){ width="240" loading=lazy .skip-lightbox .center }
+-   ![Analyse Amenities and Streets feature](assets/images/metrics.png){ width="240" loading=lazy .skip-lightbox .center }
 
     ---
 
@@ -160,7 +160,7 @@ A preview of what Urbano enables you to do
 
     Evaluate Streetscore, Amenityscore and Walkscore to assess vitality and accessibility.
 
--   ![Screenshot of Integrated CAD Workflow feature](assets/images/rhino.png){ width="240" loading=lazy .skip-lightbox .center }
+-   ![Integrated CAD Workflow feature](assets/images/rhino.png){ width="240" loading=lazy .skip-lightbox .center }
 
     ---
 
@@ -178,7 +178,7 @@ A preview of what Urbano enables you to do
 
 
 
--   ![Animated map showing Amenity Demand Profile heatmap](assets/images/adpmetrics.gif){ width="460" loading=lazy  .center }
+-   ![Amenity Demand Profile heatmap](assets/images/adpmetrics.gif){ width="460" loading=lazy  .center }
 
     ---
 
@@ -186,7 +186,7 @@ A preview of what Urbano enables you to do
 
     Spatiotemporal distribution of human activities; default data provided and fully editable.
 
--   ![Animated map showing Streetscore metrics on a road network](assets/images/streetmetrics.gif){ width="460" loading=lazy  .center }
+-   ![Streetscore metrics on a road network](assets/images/streetmetrics.gif){ width="460" loading=lazy  .center }
 
     ---
 
@@ -194,7 +194,7 @@ A preview of what Urbano enables you to do
 
     Counts *Street Hits* to show how many simulated trips use each street segment.
 
--   ![Animated map showing Amenityscore distribution](assets/images/amenitymetrics.gif){ width="460" loading=lazy  .center }
+-   ![Amenityscore distribution](assets/images/amenitymetrics.gif){ width="460" loading=lazy  .center }
 
     ---
 
@@ -202,7 +202,7 @@ A preview of what Urbano enables you to do
 
     Compares amenity demand (Amenity Hits) with supply to reveal over- or under-served areas.
 
--   ![Animated map showing Walkscore analysis results](assets/images/walkscoremetrics.gif){ width="460" loading=lazy  .center }
+-   ![Walkscore analysis results](assets/images/walkscoremetrics.gif){ width="460" loading=lazy  .center }
 
     ---
 
@@ -221,7 +221,7 @@ Use cases with Urbano components
 
 <div class="grid cards" markdown>
 
--   ![GIF demonstrating Urbano Template import workflow](assets/images/Template.gif){ width="500" loading=lazy  .center }
+-   ![Urbano Template import workflow](assets/images/Template.gif){ width="500" loading=lazy  .center }
 
     ---
 
@@ -229,7 +229,7 @@ Use cases with Urbano components
 
     *Import Urbano Template* – starter files that demonstrate each core workflow.
 
--   ![GIF showing routing calculation for multiple traffic modes](assets/images/Router.gif){ width="500" loading=lazy  .center }
+-   ![Routing calculation for multiple traffic modes](assets/images/Router.gif){ width="500" loading=lazy  .center }
 
     ---
 
@@ -237,7 +237,7 @@ Use cases with Urbano components
 
     *Router* – compute shortest paths, distances and travel times for multiple traffic modes.
 
--   ![GIF visualizing reachable buildings within walking distance](assets/images/Walkingdistance.gif){ width="500" loading=lazy  .center }
+-   ![Reachable buildings within walking distance](assets/images/Walkingdistance.gif){ width="500" loading=lazy  .center }
 
     ---
 
@@ -245,7 +245,7 @@ Use cases with Urbano components
 
     *Router* – visualise all buildings reachable from an origin within a chosen threshold.
 
--   ![GIF demonstrating Trip Engine simulation from origin](assets/images/Basic%20TripEngine.gif){ width="500" loading=lazy  .center }
+-   ![Trip Engine simulation from origin](assets/images/Basic%20TripEngine.gif){ width="500" loading=lazy  .center }
 
     ---
 
@@ -253,7 +253,7 @@ Use cases with Urbano components
 
     *ADP Trip Engine & Inspect Trip* – split population by ADP and send trips to valid amenities.
 
--   ![GIF showing Streetscore updates when modifying links](assets/images/Streetscore.gif){ width="500" loading=lazy  .center }
+-   ![Streetscore updates when modifying links](assets/images/Streetscore.gif){ width="500" loading=lazy  .center }
 
     ---
 
@@ -261,7 +261,7 @@ Use cases with Urbano components
 
     *ADP Trip Engine & Street Hits* – add or remove links and see Street Hits update instantly.
 
--   ![GIF showing Amenityscore updates when adding population](assets/images/Amenityscore_addpop.gif){ width="500" loading=lazy  .center }
+-   ![Amenityscore updates when adding population](assets/images/Amenityscore_addpop.gif){ width="500" loading=lazy  .center }
 
     ---
 
@@ -269,7 +269,7 @@ Use cases with Urbano components
 
     *ADP Trip Engine & Amenity Hits* – add building occupants and observe nearby amenity utilisation.
 
--   ![GIF showing Amenityscore updates when adding amenities](assets/images/Amenityscore_addamen.gif){ width="500" loading=lazy  .center }
+-   ![Amenityscore updates when adding amenities](assets/images/Amenityscore_addamen.gif){ width="500" loading=lazy  .center }
 
     ---
 
@@ -277,7 +277,7 @@ Use cases with Urbano components
 
     *ADP Trip Engine & Amenity Hits* – insert new amenities to balance supply and demand.
 
--   ![GIF showing 24-hour time simulation with ADP](assets/images/Time%20Simulation.gif){ width="500" loading=lazy  .center }
+-   ![24-hour time simulation with ADP](assets/images/Time%20Simulation.gif){ width="500" loading=lazy  .center }
 
     ---
 
@@ -285,7 +285,7 @@ Use cases with Urbano components
 
     *ADP & Trip Engine* – run 24-hour simulations to capture temporal variations.
 
--   ![GIF demonstrating Walkscore improvement by adding amenities](assets/images/Walkscore.gif){ width="500" loading=lazy  .center }
+-   ![Walkscore improvement by adding amenities](assets/images/Walkscore.gif){ width="500" loading=lazy  .center }
 
     ---
 
