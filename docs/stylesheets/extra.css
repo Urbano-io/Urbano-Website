@@ -51,3 +51,13 @@ span.faint {
   white-space: nowrap;
   border-width: 0;
 }
+
+/* Respect user preference for reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  .md-button,
+  .mdx-users__testimonial img,
+  .black-and-white {
+    transition: none !important;
+    transform: none !important;
+  }
+}
