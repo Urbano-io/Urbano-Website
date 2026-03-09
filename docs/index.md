@@ -55,7 +55,8 @@ hide:
   transition: transform 0.3s ease-in-out, border-color 0.3s ease-in-out;
 }
 
-.mdx-users__testimonial:hover img {
+.mdx-users__testimonial:hover img,
+.mdx-users__testimonial:focus-visible img {
     transform: scale(1.05);
     border-color: #007acc;
 }
@@ -70,8 +71,14 @@ hide:
    /* Optionally add vendor prefixes for older browser support */
    /* -webkit-filter: grayscale(100%); */
 }
-.black-and-white:hover {
+.black-and-white:hover,
+.black-and-white:focus-visible {
     filter: grayscale(0%);
+}
+.black-and-white:focus-visible {
+    outline: 2px solid #007acc;
+    outline-offset: 4px;
+    border-radius: 8px;
 }
 </style>
 
@@ -103,17 +110,17 @@ hide:
 
 <div class="mdx-users">
 
-<figure class="mdx-users__testimonial black-and-white">
+<figure class="mdx-users__testimonial black-and-white" tabindex="0">
     <img src="assets/images/team/yang.jpg" alt="" loading="lazy" class="skip-lightbox">
     <figcaption class="md-typeset">Yang Yang</figcaption>
   </figure>
   
-  <figure class="mdx-users__testimonial black-and-white">
+  <figure class="mdx-users__testimonial black-and-white" tabindex="0">
     <img src="assets/images/team/kastner.jpg" alt="" loading="lazy" class="skip-lightbox">
     <figcaption class="md-typeset">Patrick Kastner</figcaption>
   </figure>
 
-<figure class="mdx-users__testimonial black-and-white">
+<figure class="mdx-users__testimonial black-and-white" tabindex="0">
     <img src="assets/images/team/dogan.jpg" alt="" loading="lazy" class="skip-lightbox">
     <figcaption class="md-typeset">Timur Dogan</figcaption>
   </figure>
@@ -124,12 +131,12 @@ hide:
 
 <div class="mdx-users">
 
-<figure class="mdx-users__testimonial black-and-white">
+<figure class="mdx-users__testimonial black-and-white" tabindex="0">
     <img src="assets/images/team/saraf.jpg" alt="" loading="lazy" class="skip-lightbox">
     <figcaption class="md-typeset">Nikhil Saraf</figcaption>
   </figure>
 
-<figure class="mdx-users__testimonial black-and-white">
+<figure class="mdx-users__testimonial black-and-white" tabindex="0">
     <img src="assets/images/team/samitha.jpg" alt="" loading="lazy" class="skip-lightbox">
     <figcaption class="md-typeset">Samitha Samaranayake
 </figcaption>
