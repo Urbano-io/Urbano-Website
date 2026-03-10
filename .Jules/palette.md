@@ -9,3 +9,7 @@
 ## 2025-03-09 - Silencing Duplicative Image Announcements in MkDocs
 **Learning:** In MkDocs Material feature cards, when an image represents the exact same concept as the adjacent bold heading (e.g., an icon for "Simulation" next to the text "Simulation"), screen readers will announce it twice. Markdown's `attr_list` extension allows overriding the default filename-based alt text by injecting `{ alt="" }` directly after the image definition (e.g., `![alt](url){ alt="" }`).
 **Action:** When creating visually rich feature cards with icons and headings in MkDocs, set the image alt text to empty (`alt=""`) via `attr_list` to reduce screen reader noise and improve navigation flow.
+
+## 2025-03-09 - Accessible Visual Focus on Non-Interactive Semantic Elements
+**Learning:** When using `tabindex="0"` on non-interactive semantic elements (like `<figure>`) to enable visual CSS hover/focus effects (like grayscale-to-color transitions) for keyboard users, screen readers will announce them as contextless, potentially confusing focus stops.
+**Action:** If a static element must be focusable for visual accessibility reasons, always provide semantic context by explicitly adding appropriate ARIA labeling, such as `role="group"` and an `aria-label` describing the content.

@@ -110,17 +110,17 @@ hide:
 
 <div class="mdx-users">
 
-<figure class="mdx-users__testimonial black-and-white" tabindex="0">
+<figure class="mdx-users__testimonial black-and-white" tabindex="0" role="group" aria-label="Team member: Yang Yang">
     <img src="assets/images/team/yang.jpg" alt="" loading="lazy" class="skip-lightbox">
     <figcaption class="md-typeset">Yang Yang</figcaption>
   </figure>
   
-  <figure class="mdx-users__testimonial black-and-white" tabindex="0">
+  <figure class="mdx-users__testimonial black-and-white" tabindex="0" role="group" aria-label="Team member: Patrick Kastner">
     <img src="assets/images/team/kastner.jpg" alt="" loading="lazy" class="skip-lightbox">
     <figcaption class="md-typeset">Patrick Kastner</figcaption>
   </figure>
 
-<figure class="mdx-users__testimonial black-and-white" tabindex="0">
+<figure class="mdx-users__testimonial black-and-white" tabindex="0" role="group" aria-label="Team member: Timur Dogan">
     <img src="assets/images/team/dogan.jpg" alt="" loading="lazy" class="skip-lightbox">
     <figcaption class="md-typeset">Timur Dogan</figcaption>
   </figure>
@@ -131,12 +131,12 @@ hide:
 
 <div class="mdx-users">
 
-<figure class="mdx-users__testimonial black-and-white" tabindex="0">
+<figure class="mdx-users__testimonial black-and-white" tabindex="0" role="group" aria-label="Alumni and Advisor: Nikhil Saraf">
     <img src="assets/images/team/saraf.jpg" alt="" loading="lazy" class="skip-lightbox">
     <figcaption class="md-typeset">Nikhil Saraf</figcaption>
   </figure>
 
-<figure class="mdx-users__testimonial black-and-white" tabindex="0">
+<figure class="mdx-users__testimonial black-and-white" tabindex="0" role="group" aria-label="Alumni and Advisor: Samitha Samaranayake">
     <img src="assets/images/team/samitha.jpg" alt="" loading="lazy" class="skip-lightbox">
     <figcaption class="md-typeset">Samitha Samaranayake
 </figcaption>
