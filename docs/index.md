@@ -105,7 +105,7 @@ hide:
 
 ---
 
-## 👥 Team
+## <span aria-hidden="true">👥</span> Team
 
 
 <div class="mdx-users">
@@ -127,7 +127,7 @@ hide:
 
 </div>
 
-## 👥 Alumni & Advisors
+## <span aria-hidden="true">👥</span> Alumni & Advisors
 
 <div class="mdx-users">
 
@@ -158,7 +158,7 @@ Urbano is being developed as a cross-disciplinary project through a collaboratio
 
 ---
 
-## 🎉 Supporters
+## <span aria-hidden="true">🎉</span> Supporters
 
 <div class="grid" markdown>
 
