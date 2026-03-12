@@ -83,7 +83,7 @@ hide:
 </style>
 
 <figure markdown="span">
-  ![Urbano Logo](assets/cd/android-chrome-512x512.png){ width="250" .skip-lightbox }
+  ![Urbano Logo](assets/cd/android-chrome-512x512.png){ width="250" .skip-lightbox alt="" }
 </figure>
 
 <p style="text-align: center; font-size: 24px;">
