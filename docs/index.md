@@ -16,10 +16,8 @@ hide:
   padding: 12px 24px;
   transition: all 0.2s ease-in-out;
 }
-.md-button:hover,
-.md-button:focus-visible {
-  outline: 2px solid currentColor;
-  outline-offset: 2px;
+.md-button:active {
+  transform: scale(0.98);
 }
 .md-button--primary {
   background-color: #007acc;
@@ -28,11 +26,19 @@ hide:
 .md-button--primary:hover,
 .md-button--primary:focus-visible {
   background-color: #005f9e;
-  outline-color: #005f9e;
 }
 .center-text {
   text-align: center;
   display: block;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .md-button,
+  .md-button:active,
+  .mdx-users__testimonial img {
+    transition: none !important;
+    transform: none !important;
+  }
 }
 
 .mdx-users {
@@ -52,6 +58,7 @@ hide:
   border: 3px solid #ddd;
   width: 150px;
   height: 150px;
+  object-fit: cover;        /* Prevents image distortion */
   transition: transform 0.3s ease-in-out, border-color 0.3s ease-in-out;
 }
 
