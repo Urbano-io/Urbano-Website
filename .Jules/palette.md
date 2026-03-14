@@ -13,3 +13,7 @@
 ## 2025-03-09 - Accessible Visual Focus on Non-Interactive Semantic Elements
 **Learning:** When using `tabindex="0"` on non-interactive semantic elements (like `<figure>`) to enable visual CSS hover/focus effects (like grayscale-to-color transitions) for keyboard users, screen readers will announce them as contextless, potentially confusing focus stops.
 **Action:** If a static element must be focusable for visual accessibility reasons, always provide semantic context by explicitly adding appropriate ARIA labeling, such as `role="group"` and an `aria-label` describing the content.
+
+## 2025-03-09 - Maintaining Tactile Metaphor with Interactive Transforms
+**Learning:** A continuous tactile button interaction (lifting on `:hover`/`:focus-visible`, and pressing down on `:active`) requires coordinating the transforms between states. If `:active` overrides `transform` with just `scale()`, the `translateY` from the hover state is abruptly lost, causing a disjointed visual snap.
+**Action:** Always combine transforms on `:active` (e.g., `transform: translateY(0) scale(0.98)`) to smoothly resolve previous transforms and complete the physical interaction metaphor.
