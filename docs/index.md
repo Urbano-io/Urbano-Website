@@ -16,8 +16,14 @@ hide:
   padding: 12px 24px;
   transition: all 0.2s ease-in-out;
 }
+.md-button:hover,
+.md-button:focus-visible {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
 .md-button:active {
-  transform: scale(0.98);
+  transform: translateY(0) scale(0.98);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 .md-button--primary {
   background-color: #007acc;
@@ -34,6 +40,8 @@ hide:
 
 @media (prefers-reduced-motion: reduce) {
   .md-button,
+  .md-button:hover,
+  .md-button:focus-visible,
   .md-button:active,
   .mdx-users__testimonial img {
     transition: none !important;
