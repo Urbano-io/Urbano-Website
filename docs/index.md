@@ -21,6 +21,10 @@ hide:
   transform: translateY(-2px);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
 }
+.md-button:focus-visible {
+  outline: 2px solid #007acc;
+  outline-offset: 4px;
+}
 .md-button:active {
   transform: translateY(0) scale(0.98);
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
