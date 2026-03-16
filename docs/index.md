@@ -179,15 +179,15 @@ Urbano is being developed as a cross-disciplinary project through a collaboratio
 
 ## <span aria-hidden="true">🎉</span> Supporters
 
+
+
+
 <div class="grid" markdown>
 
-![AAP](assets/images/AAP_logo_stacked.png){width="150" .skip-lightbox loading=lazy .center} 
-{ .card }
+[![AAP](assets/images/AAP_logo_stacked.png){width="150" .skip-lightbox loading=lazy .center alt=""}](https://aap.cornell.edu/){ .card target="_blank" rel="noopener noreferrer" aria-label="Cornell AAP (opens in a new tab)" }
 
-![Cornell](assets/images/cornell.svg){width="125" .skip-lightbox loading=lazy .center} 
-{ .card }
+[![Cornell](assets/images/cornell.svg){width="125" .skip-lightbox loading=lazy .center alt=""}](https://www.cornell.edu/){ .card target="_blank" rel="noopener noreferrer" aria-label="Cornell University (opens in a new tab)" }
 
-![Atkinson](assets/images/atkinson.png){width="325" .skip-lightbox loading=lazy .center}
-{ .card }
+[![Atkinson](assets/images/atkinson.png){width="325" .skip-lightbox loading=lazy .center alt=""}](https://atkinson.cornell.edu/){ .card target="_blank" rel="noopener noreferrer" aria-label="Cornell Atkinson Center for Sustainability (opens in a new tab)" }
 
 </div>
