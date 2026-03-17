@@ -111,11 +111,11 @@ hide:
 
 <br>
 
-![Urbano Example Canvas](assets/images/combo.jpg){.skip-lightbox}
+![An example Rhino and Grasshopper canvas showing a neighborhood layout with an overlaid walkability analysis and colorful simulation components](assets/images/combo.jpg){.skip-lightbox}
 
 <div style="display: flex; justify-content: center; align-items: center; flex-wrap: wrap; gap: 1rem;" markdown>
 
-[:material-rocket-launch: Get Started](https://docs.urbano.io/){ .md-button .md-button--primary }
+[:material-rocket-launch: Get Started](https://docs.urbano.io/){ .md-button .md-button--primary target="_blank" rel="noopener noreferrer" aria-label="Get Started (opens in a new tab)" }
 [:material-download: Download V1](https://www.food4rhino.com/en/app/urbano){ .md-button target="_blank" rel="noopener noreferrer" aria-label="Download V1 (opens in a new tab)" }
 [:material-download: Download V2](https://rhinopackages.github.io/?search=urbano&sort=2&p=Urbano2){ .md-button target="_blank" rel="noopener noreferrer" aria-label="Download V2 (opens in a new tab)" }
 
