@@ -61,3 +61,18 @@ span.faint {
     transform: none !important;
   }
 }
+
+/* Fix accessibility contrast in banner and footer */
+.md-banner a[rel="me noopener noreferrer"],
+.md-banner a[rel="me noopener noreferrer"] > strong {
+  color: #ffffff !important;
+}
+
+.md-copyright {
+  color: rgba(255, 255, 255, 0.7) !important;
+}
+
+.md-copyright a {
+  text-decoration: underline !important;
+  text-underline-offset: 2px !important;
+}
