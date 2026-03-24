@@ -1,3 +1,7 @@
+## 2026-03-24 - MkDocs Built-In Color Contrast & Links
+**Learning:** MkDocs Material built-in utility features (like the `.md-banner` announcement bar and `.md-copyright` footer text) can sometimes trigger accessibility violations such as `color-contrast` and `link-in-text-block`, particularly when combining dark modes/themes with default link colors (like the default blue), or lowering opacity on footer text too much.
+**Action:** When working with MkDocs Material, verify the color contrast of custom announcement links and footer text. explicitly override these classes in `extra.css` with `!important` tags if necessary to guarantee WCAG 2.0 AA compliance, and ensure links inside text blocks (like the "Material for MkDocs" footer link) have an explicit `text-decoration: underline`.
+
 ## 2026-02-26 - Replacing Raw HTML Buttons with Markdown
 **Learning:** `mkdocs-material` allows using markdown syntax inside HTML containers if the `markdown` attribute is present on the container. This enables using theme features like icons and button styles more cleanly than raw HTML.
 **Action:** Use `markdown` attribute on wrapper `div`s when needing complex layout but wanting to use markdown components.
