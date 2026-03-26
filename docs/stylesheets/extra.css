@@ -18,22 +18,83 @@ a.field {
 
 span.parent-field {
   font-weight: 600;
-  color:#a3acb9;
+  color: #70767f;
   font-size: .85em;
 }
 
 span.type {
-  color: #8792a2;
+  color: #6e7784;
   font-size: .7rem;
   margin-right: 4px;
 }
 
 span.version {
-  color: #8792a2;
+  color: #6e7784;
   font-size: .7rem;
   float: right;
 }
 
 span.faint {
-  color: #8792a2;
+  color: #6e7784;
+}
+
+/* Improve visibility and tactility of card links */
+.card {
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  display: block;
+}
+.card:hover,
+.card:focus-visible {
+  transform: translateY(-2px);
+}
+.card:active {
+  transform: translateY(0) scale(0.98);
+}
+.card:focus-visible {
+  outline: 2px solid #007acc;
+  outline-offset: 4px;
+  border-radius: 8px;
+}
+
+/* Screen reader only utility */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  clip-path: inset(50%);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+/* Respect user preference for reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  .md-button,
+  .mdx-users__testimonial img,
+  .black-and-white,
+  .card,
+  .card:hover,
+  .card:focus-visible,
+  .card:active {
+    transition: none !important;
+    transform: none !important;
+  }
+}
+
+/* Fix accessibility contrast in banner and footer */
+.md-banner a[rel="me noopener noreferrer"],
+.md-banner a[rel="me noopener noreferrer"] > strong {
+  color: #ffffff !important;
+}
+
+.md-copyright {
+  color: rgba(255, 255, 255, 0.7) !important;
+}
+
+.md-copyright a {
+  text-decoration: underline !important;
+  text-underline-offset: 2px !important;
 }

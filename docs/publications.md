@@ -4,7 +4,7 @@ hide:
   # - toc
 ---
 
-Publications related to Urbano are listed below, grouped by modules. See [Researchgate](https://www.researchgate.net/profile/Yang-Yang-168/research) for more info.
+Publications related to Urbano are listed below, grouped by modules. See <a href="https://www.researchgate.net/profile/Yang-Yang-168/research" target="_blank" rel="noopener noreferrer">Researchgate<span class="sr-only"> (opens in a new tab)</span></a> for more info.
 
 ## Urbano v2
 

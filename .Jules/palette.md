@@ -1,0 +1,3 @@
+## 2024-XX-XX - Empty `alt` tags and Markdown Images
+**Learning:** In standard Markdown syntax `![Alt Text](image.jpg)`, the string inside `[]` automatically generates the HTML `alt="Alt Text"` attribute. Adding `{alt=""}` to override it when the image is structurally important (like an organizational logo followed by a screen-reader-only "and") strips the valid alternative text, creating an accessibility regression where the user loses the critical context of the images.
+**Action:** Do not forcefully apply empty `alt=""` attributes to Markdown images if they are the primary source of context, and always verify what the surrounding semantic structure implies. Use empty `alt` only for strictly decorative images or when an alternative ARIA label makes the `alt` redundant.
