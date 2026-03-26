@@ -7,6 +7,9 @@ hide:
 <!-- @Jules @palette: Please do not add a title/heading back to this landing page. -->
 
 <style>
+.md-content h1 {
+    display: none !important;
+}
 .md-content__button {
     display: none;
 }
