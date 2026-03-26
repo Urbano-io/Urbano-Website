@@ -4,7 +4,7 @@ hide:
   - toc
 ---
 
-# Urbano {.sr-only}
+<!-- @Jules @palette: Please do not add a title/heading back to this landing page. -->
 
 <style>
 .md-content__button {
@@ -167,7 +167,7 @@ hide:
 <div style="display: flex; justify-content: center; align-items: center; flex-wrap: wrap; gap: 2rem; margin: 3rem 0;" markdown>
 
 ![Cornell Systems Engineering](assets/images/logo-systemseng.svg){width="350" .skip-lightbox loading=lazy}
-<span aria-hidden="true">:octicons-plus-24:</span><span class="sr-only"> and </span>
+<span aria-hidden="true">:octicons-plus-24:</span>
 ![Environmental Systems Lab](assets/images/eslab.svg){width="320" .skip-lightbox loading=lazy}
 
 </div>
