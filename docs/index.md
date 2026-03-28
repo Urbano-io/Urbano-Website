@@ -104,17 +104,13 @@ hide:
 }
 </style>
 
-<figure markdown="span">
-  ![Urbano Logo](assets/cd/android-chrome-512x512.png){ width="250" .skip-lightbox alt="" }
-</figure>
-
-<p style="text-align: center; font-size: 24px;">
-  Site and mobility analysis in Rhino & Grasshopper. 
-</p>
-
-<br>
-
-![An example Rhino and Grasshopper canvas showing a neighborhood layout with an overlaid walkability analysis and colorful simulation components](assets/images/combo.jpg){.skip-lightbox}
+<div class="workflow-teaser workflow-teaser--hero">
+  <video autoplay loop muted playsinline controls preload="metadata" aria-label="Urbano workflow teaser video">
+    <source src="assets/videos/Urbano2-WorkflowTeaser1.mp4" type="video/mp4">
+    Your browser does not support embedded videos. You can
+    <a href="assets/videos/Urbano2-WorkflowTeaser1.mp4">download the teaser video here</a>.
+  </video>
+</div>
 
 <div style="display: flex; justify-content: center; align-items: center; flex-wrap: wrap; gap: 1rem;" markdown>
 
