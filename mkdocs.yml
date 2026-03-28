@@ -21,7 +21,7 @@ theme:
   name: material
   custom_dir: docs/overrides
   #font: false
-  logo: assets/cd/header-logo.png
+  logo: assets/cd/android-chrome-512x512.png
   favicon: assets/cd/favicon.ico
   icon:
     annotation: material/plus-circle
@@ -66,8 +66,8 @@ theme:
         name: Switch to light mode
     - media: "(prefers-color-scheme: light)"
       scheme: default
-      primary: black
-      accent: black
+      primary: white
+      accent: indigo
       toggle:
         icon: material/toggle-switch
         name: Switch to dark mode
