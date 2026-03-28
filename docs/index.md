@@ -114,7 +114,7 @@ hide:
 
 <br>
 
-![An example Rhino and Grasshopper canvas showing a neighborhood layout with an overlaid walkability analysis and colorful simulation components](assets/images/combo.jpg){.skip-lightbox}
+![An example Rhino and Grasshopper canvas showing a neighborhood layout with an overlaid walkability analysis and colorful simulation components](assets/images/combo.jpg)
 
 <div style="display: flex; justify-content: center; align-items: center; flex-wrap: wrap; gap: 1rem;" markdown>
 
