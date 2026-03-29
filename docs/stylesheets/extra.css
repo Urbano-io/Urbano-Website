@@ -40,15 +40,17 @@ span.faint {
 
 /* Improve visibility and tactility of card links */
 .card {
-  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  transition: transform 0.2s ease-in-out, filter 0.2s ease-in-out;
   display: block;
 }
 .card:hover,
 .card:focus-visible {
   transform: translateY(-2px);
+  filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.15));
 }
 .card:active {
   transform: translateY(0) scale(0.98);
+  filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.1));
 }
 .card:focus-visible {
   outline: 2px solid #007acc;
