@@ -108,7 +108,7 @@ hide:
   <video autoplay loop muted playsinline controls preload="metadata" aria-label="Urbano workflow teaser video">
     <source src="assets/videos/Urbano2-WorkflowTeaser1.mp4" type="video/mp4">
     Your browser does not support embedded videos. You can
-    <a href="assets/videos/Urbano2-WorkflowTeaser1.mp4">download the teaser video here</a>.
+    <a href="assets/videos/Urbano2-WorkflowTeaser1.mp4" download target="_blank" rel="noopener noreferrer" aria-label="Download the Urbano teaser video (opens in a new tab)">download the teaser video here</a>.
   </video>
 </div>
 
