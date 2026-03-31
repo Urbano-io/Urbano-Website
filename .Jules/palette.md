@@ -4,3 +4,7 @@
 ## 2024-10-25 - Tactile Hover Effects for Transparent Logo Cards
 **Learning:** Applying standard `box-shadow` on cards (e.g., `<a class="card"><img></a>`) that contain transparent PNG/SVG logos produces an awkward rectangular shadow that ignores the image's contours. The user doesn't see a nice lifted logo, but a rigid bounding box.
 **Action:** Use `filter: drop-shadow(...)` instead of `box-shadow` for interactive image link cards. This correctly follows the alpha channel of the inner transparent images, providing a far more organic and pleasant tactile lift effect on `:hover` and `:active`.
+
+## 2024-11-20 - Inline Links and Screen Reader Phrasing
+**Learning:** For inline links embedded directly within a continuous sentence (e.g., "You can [download the video here]."), adding a full `aria-label` to the anchor tag (like `aria-label="Download the video (opens in a new tab)"`) breaks the grammatical structure for screen reader users. The screen reader reads the surrounding sentence text ("You can...") and then stops and abruptly reads the entirely separate, redundant label on the anchor tag ("Download the video..."), rather than naturally reading the phrase inline.
+**Action:** When adding accessibility context to a link that flows within a continuous sentence block, use a visually hidden span (like `<span class="sr-only"> (opens in a new tab)</span>`) appended inside the anchor tag rather than overriding the whole text with `aria-label`. This preserves the natural sentence flow for screen readers while still providing the necessary context.
