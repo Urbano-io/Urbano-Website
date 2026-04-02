@@ -165,9 +165,9 @@ hide:
 
 <div style="display: flex; justify-content: center; align-items: center; flex-wrap: wrap; gap: 2rem; margin: 3rem 0;" markdown>
 
-![Cornell Systems Engineering](assets/images/logo-systemseng.svg){width="350" .skip-lightbox loading=lazy}
+[![Cornell Systems Engineering](assets/images/logo-systemseng.svg){width="350" .skip-lightbox loading=lazy alt=""}](https://www.duffield.cornell.edu/sys/meng/){ .card target="_blank" rel="noopener noreferrer" aria-label="Cornell Systems Engineering (opens in a new tab)" }
 <span aria-hidden="true">:octicons-plus-24:</span>
-![Environmental Systems Lab](assets/images/eslab.svg){width="320" .skip-lightbox loading=lazy}
+[![Environmental Systems Lab](assets/images/eslab.svg){width="320" .skip-lightbox loading=lazy alt=""}](https://aap.cornell.edu/faculty-labs-research-groups/){ .card target="_blank" rel="noopener noreferrer" aria-label="Environmental Systems Lab (opens in a new tab)" }
 
 </div>
 
