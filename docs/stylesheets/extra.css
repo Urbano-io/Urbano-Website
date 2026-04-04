@@ -18,24 +18,24 @@ a.field {
 
 span.parent-field {
   font-weight: 600;
-  color: #70767f;
+  color: #5f6368;
   font-size: .85em;
 }
 
 span.type {
-  color: #6e7784;
+  color: #5f6368;
   font-size: .7rem;
   margin-right: 4px;
 }
 
 span.version {
-  color: #6e7784;
+  color: #5f6368;
   font-size: .7rem;
   float: right;
 }
 
 span.faint {
-  color: #6e7784;
+  color: #5f6368;
 }
 
 /* Improve visibility and tactility of card links */
