@@ -101,7 +101,8 @@ span.faint {
   .card,
   .card:hover,
   .card:focus-visible,
-  .card:active {
+  .card:active,
+  .md-banner a[rel="me noopener noreferrer"] {
     transition: none !important;
     transform: none !important;
   }
@@ -120,4 +121,21 @@ span.faint {
 .md-copyright a {
   text-decoration: underline !important;
   text-underline-offset: 2px !important;
+}
+
+.md-banner a[rel="me noopener noreferrer"] {
+  transition: opacity 0.2s ease-in-out, outline 0.2s ease-in-out;
+  border-radius: 4px;
+}
+
+.md-banner a[rel="me noopener noreferrer"]:hover,
+.md-banner a[rel="me noopener noreferrer"]:focus-visible {
+  opacity: 0.8;
+  text-decoration: underline !important;
+  text-underline-offset: 2px !important;
+}
+
+.md-banner a[rel="me noopener noreferrer"]:focus-visible {
+  outline: 2px solid #ffffff;
+  outline-offset: 4px;
 }
