@@ -139,3 +139,16 @@ span.faint {
   outline: 2px solid #ffffff;
   outline-offset: 4px;
 }
+
+/* UX/A11y Standard: Inline links within text blocks must have a visual interactive affordance on hover and focus */
+.md-typeset a:not(.md-button):not(.card):not(.headerlink):hover,
+.md-typeset a:not(.md-button):not(.card):not(.headerlink):focus-visible {
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.md-typeset a:not(.md-button):not(.card):not(.headerlink):focus-visible {
+  outline: 2px solid #007acc;
+  outline-offset: 4px;
+  border-radius: 2px;
+}
