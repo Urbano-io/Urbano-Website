@@ -41,13 +41,24 @@ hide:
   transform: translateY(0) scale(0.98);
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
+.md-button:not(.md-button--primary) {
+  border-color: #007acc;
+  color: #007acc;
+}
+.md-button:not(.md-button--primary):hover,
+.md-button:not(.md-button--primary):focus-visible {
+  background-color: #007acc;
+  color: white;
+}
 .md-button--primary {
   background-color: #007acc;
+  border-color: #007acc;
   color: white;
 }
 .md-button--primary:hover,
 .md-button--primary:focus-visible {
   background-color: #005f9e;
+  border-color: #005f9e;
 }
 .center-text {
   text-align: center;
