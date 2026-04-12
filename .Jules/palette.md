@@ -12,3 +12,7 @@
 ## 2024-XX-XX - MkDocs Inline Link Styling Collisions
 **Learning:** Adding global hover/focus styles (like `text-decoration: underline`) to `.md-typeset a` in a Material for MkDocs project unintentionally breaks the styling of explicitly designed interactive components like `.md-button`s, `.card`s, and `.headerlink`s.
 **Action:** When applying standard UX/A11y hover and focus affordances to inline text links in MkDocs, strictly scope the CSS selector using exclusions (e.g., `.md-typeset a:not(.md-button):not(.card):not(.headerlink)`) to ensure the changes only affect standard prose links without causing UI regressions on buttons or cards.
+
+## 2024-05-18 - Video Focus States in Hidden Overflow Containers
+**Learning:** When embedded elements like `<video>` or `<iframe>` are placed inside styled container divs with `border-radius` and `overflow: hidden` (a common pattern for UI cards and teasers), standard outer focus rings (`outline-offset: 2px` or similar) can be completely clipped and hidden by the container's overflow property.
+**Action:** Use a negative `outline-offset` (e.g., `outline-offset: -2px`) on elements that fill their overflow-hidden containers to ensure the focus ring draws inwards and remains fully visible to keyboard users.
