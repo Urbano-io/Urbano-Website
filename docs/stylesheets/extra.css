@@ -152,3 +152,8 @@ span.faint {
   outline-offset: 4px;
   border-radius: 2px;
 }
+
+.workflow-teaser video:focus-visible {
+  outline: 2px solid #007acc;
+  outline-offset: -2px;
+}
