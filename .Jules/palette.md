@@ -16,3 +16,6 @@
 ## 2024-XX-XX - Focus Rings in `overflow: hidden` Containers
 **Learning:** When standard focus rings (`outline`) are applied to embedded media elements (like `<video>`) that fill parent containers with `overflow: hidden` (like a `.workflow-teaser`), the focus indicator gets completely clipped out of view, rendering the element seemingly inaccessible to keyboard users despite actually having focus.
 **Action:** When applying focus rings (like `:focus-visible`) to elements filling an `overflow: hidden` parent, use a negative `outline-offset` (e.g., `-2px`) to pull the focus indicator inward, ensuring it remains fully visible to keyboard users.
+## 2024-XX-XX - Dead Tab Stops on Non-Interactive Figures
+**Learning:** Applying `tabindex="0"` to non-interactive `<figure>` elements solely to trigger CSS pseudo-class effects (like `:focus-visible`) creates "dead" tab stops. Screen reader and keyboard users expect focusable elements to be actionable. This is a severe WCAG accessibility violation.
+**Action:** Never use `tabindex="0"` just for visual effects. Instead, either wrap the content in a semantic interactive element (like an `<a>` tag with a verified URL) or remove the focusability entirely if the element is purely static.
