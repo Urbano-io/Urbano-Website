@@ -1,6 +1,7 @@
 ## 2024-XX-XX - Empty `alt` tags and Markdown Images
 **Learning:** In standard Markdown syntax `![Alt Text](image.jpg)`, the string inside `[]` automatically generates the HTML `alt="Alt Text"` attribute. Adding `{alt=""}` to override it when the image is structurally important (like an organizational logo followed by a screen-reader-only "and") strips the valid alternative text, creating an accessibility regression where the user loses the critical context of the images.
 **Action:** Do not forcefully apply empty `alt=""` attributes to Markdown images if they are the primary source of context, and always verify what the surrounding semantic structure implies. Use empty `alt` only for strictly decorative images or when an alternative ARIA label makes the `alt` redundant.
+
 ## 2024-10-25 - Tactile Hover Effects for Transparent Logo Cards
 **Learning:** Applying standard `box-shadow` on cards (e.g., `<a class="card"><img></a>`) that contain transparent PNG/SVG logos produces an awkward rectangular shadow that ignores the image's contours. The user doesn't see a nice lifted logo, but a rigid bounding box.
 **Action:** Use `filter: drop-shadow(...)` instead of `box-shadow` for interactive image link cards. This correctly follows the alpha channel of the inner transparent images, providing a far more organic and pleasant tactile lift effect on `:hover` and `:active`.
@@ -16,3 +17,11 @@
 ## 2024-05-18 - Video Focus States in Hidden Overflow Containers
 **Learning:** When embedded elements like `<video>` or `<iframe>` are placed inside styled container divs with `border-radius` and `overflow: hidden` (a common pattern for UI cards and teasers), standard outer focus rings (`outline-offset: 2px` or similar) can be completely clipped and hidden by the container's overflow property.
 **Action:** Use a negative `outline-offset` (e.g., `outline-offset: -2px`) on elements that fill their overflow-hidden containers to ensure the focus ring draws inwards and remains fully visible to keyboard users.
+
+## 2024-XX-XX - Focus Rings in `overflow: hidden` Containers
+**Learning:** When standard focus rings (`outline`) are applied to embedded media elements (like `<video>`) that fill parent containers with `overflow: hidden` (like a `.workflow-teaser`), the focus indicator gets completely clipped out of view, rendering the element seemingly inaccessible to keyboard users despite actually having focus.
+**Action:** When applying focus rings (like `:focus-visible`) to elements filling an `overflow: hidden` parent, use a negative `outline-offset` (e.g., `-2px`) to pull the focus indicator inward, ensuring it remains fully visible to keyboard users.
+
+## 2024-XX-XX - Dead Tab Stops on Non-Interactive Figures
+**Learning:** Applying `tabindex="0"` to non-interactive `<figure>` elements solely to trigger CSS pseudo-class effects (like `:focus-visible`) creates "dead" tab stops. Screen reader and keyboard users expect focusable elements to be actionable. This is a severe WCAG accessibility violation.
+**Action:** Never use `tabindex="0"` just for visual effects. Instead, either wrap the content in a semantic interactive element (like an `<a>` tag with a verified URL) or remove the focusability entirely if the element is purely static.
