@@ -98,8 +98,7 @@ hide:
 }
 
 .mdx-users__testimonial a:hover img,
-.mdx-users__testimonial a:focus-visible img,
-.mdx-users__testimonial div:hover img {
+.mdx-users__testimonial a:focus-visible img {
     transform: scale(1.05);
     border-color: #007acc;
 }
@@ -176,10 +175,10 @@ hide:
 <div class="mdx-users">
 
 <figure class="mdx-users__testimonial">
-    <div class="black-and-white" style="display: block;">
+    <a href="https://github.com/nikhilsaraf" class="black-and-white" style="display: block; color: inherit; text-decoration: none;" target="_blank" rel="noopener noreferrer" aria-label="Nikhil Saraf (opens in a new tab)">
         <img src="assets/images/team/saraf.jpg" alt="" loading="lazy" class="skip-lightbox">
         <figcaption class="md-typeset">Nikhil Saraf</figcaption>
-    </div>
+    </a>
   </figure>
 
   <figure class="mdx-users__testimonial">
