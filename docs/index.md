@@ -103,6 +103,18 @@ hide:
     border-color: #007acc;
 }
 
+.mdx-users__testimonial a:active img {
+    transform: scale(0.96);
+    border-color: #005f9e;
+}
+
+.mdx-users__testimonial a:hover figcaption,
+.mdx-users__testimonial a:focus-visible figcaption {
+    color: #007acc;
+    text-decoration: underline;
+    text-underline-offset: 2px;
+}
+
 .center {
     display: block;
     margin: 0 auto;
