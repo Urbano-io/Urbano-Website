@@ -103,6 +103,10 @@ hide:
     border-color: #007acc;
 }
 
+.mdx-users__testimonial figcaption {
+    transition: color 0.3s ease-in-out;
+}
+
 .mdx-users__testimonial a:active img {
     transform: scale(0.96);
     border-color: #005f9e;
@@ -113,6 +117,10 @@ hide:
     color: #007acc;
     text-decoration: underline;
     text-underline-offset: 2px;
+}
+
+.mdx-users__testimonial a:active figcaption {
+    color: #005f9e;
 }
 
 .center {
