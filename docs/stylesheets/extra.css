@@ -72,6 +72,7 @@ span.faint {
 }
 
 .workflow-teaser video {
+  border-radius: inherit;
   display: block;
   width: 100%;
   height: auto;
