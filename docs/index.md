@@ -168,23 +168,23 @@ hide:
 <div class="mdx-users">
 
 <figure class="mdx-users__testimonial">
-    <a href="https://yangyang.page/about.html" class="black-and-white" style="display: block; color: inherit; text-decoration: none;" target="_blank" rel="noopener noreferrer" aria-label="Yang Yang (opens in a new tab)">
+    <a href="https://yangyang.page/about.html" class="black-and-white" style="display: block; color: inherit; text-decoration: none;" target="_blank" rel="noopener noreferrer">
         <img src="assets/images/team/yang.jpg" alt="" loading="lazy" class="skip-lightbox">
-        <figcaption class="md-typeset">Yang Yang</figcaption>
+        <figcaption class="md-typeset">Yang Yang<span class="sr-only"> (opens in a new tab)</span></figcaption>
     </a>
   </figure>
   
   <figure class="mdx-users__testimonial">
-    <a href="https://arch.gatech.edu/people/patrick-kastner" class="black-and-white" style="display: block; color: inherit; text-decoration: none;" target="_blank" rel="noopener noreferrer" aria-label="Patrick Kastner (opens in a new tab)">
+    <a href="https://arch.gatech.edu/people/patrick-kastner" class="black-and-white" style="display: block; color: inherit; text-decoration: none;" target="_blank" rel="noopener noreferrer">
         <img src="assets/images/team/kastner.jpg" alt="" loading="lazy" class="skip-lightbox">
-        <figcaption class="md-typeset">Patrick Kastner</figcaption>
+        <figcaption class="md-typeset">Patrick Kastner<span class="sr-only"> (opens in a new tab)</span></figcaption>
     </a>
   </figure>
 
   <figure class="mdx-users__testimonial">
-    <a href="https://aap.cornell.edu/people/timur-dogan/" class="black-and-white" style="display: block; color: inherit; text-decoration: none;" target="_blank" rel="noopener noreferrer" aria-label="Timur Dogan (opens in a new tab)">
+    <a href="https://aap.cornell.edu/people/timur-dogan/" class="black-and-white" style="display: block; color: inherit; text-decoration: none;" target="_blank" rel="noopener noreferrer">
         <img src="assets/images/team/dogan.jpg" alt="" loading="lazy" class="skip-lightbox">
-        <figcaption class="md-typeset">Timur Dogan</figcaption>
+        <figcaption class="md-typeset">Timur Dogan<span class="sr-only"> (opens in a new tab)</span></figcaption>
     </a>
   </figure>
 
@@ -195,16 +195,16 @@ hide:
 <div class="mdx-users">
 
 <figure class="mdx-users__testimonial">
-    <a href="https://github.com/nikhilsaraf" class="black-and-white" style="display: block; color: inherit; text-decoration: none;" target="_blank" rel="noopener noreferrer" aria-label="Nikhil Saraf (opens in a new tab)">
+    <a href="https://github.com/nikhilsaraf" class="black-and-white" style="display: block; color: inherit; text-decoration: none;" target="_blank" rel="noopener noreferrer">
         <img src="assets/images/team/saraf.jpg" alt="" loading="lazy" class="skip-lightbox">
-        <figcaption class="md-typeset">Nikhil Saraf</figcaption>
+        <figcaption class="md-typeset">Nikhil Saraf<span class="sr-only"> (opens in a new tab)</span></figcaption>
     </a>
   </figure>
 
   <figure class="mdx-users__testimonial">
-    <a href="https://cee.cornell.edu/samitha/" class="black-and-white" style="display: block; color: inherit; text-decoration: none;" target="_blank" rel="noopener noreferrer" aria-label="Samitha Samaranayake (opens in a new tab)">
+    <a href="https://cee.cornell.edu/samitha/" class="black-and-white" style="display: block; color: inherit; text-decoration: none;" target="_blank" rel="noopener noreferrer">
         <img src="assets/images/team/samitha.jpg" alt="" loading="lazy" class="skip-lightbox">
-        <figcaption class="md-typeset">Samitha Samaranayake</figcaption>
+        <figcaption class="md-typeset">Samitha Samaranayake<span class="sr-only"> (opens in a new tab)</span></figcaption>
     </a>
   </figure>
 
