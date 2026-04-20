@@ -25,3 +25,7 @@
 ## 2024-XX-XX - Dead Tab Stops on Non-Interactive Figures
 **Learning:** Applying `tabindex="0"` to non-interactive `<figure>` elements solely to trigger CSS pseudo-class effects (like `:focus-visible`) creates "dead" tab stops. Screen reader and keyboard users expect focusable elements to be actionable. This is a severe WCAG accessibility violation.
 **Action:** Never use `tabindex="0"` just for visual effects. Instead, either wrap the content in a semantic interactive element (like an `<a>` tag with a verified URL) or remove the focusability entirely if the element is purely static.
+
+## 2024-XX-XX - `aria-label` Overriding Internal DOM Tree Semantics
+**Learning:** Applying an `aria-label` to an `<a>` tag that wraps a complex semantic structure (like a `<figure>` and `<figcaption>`) completely overrides the internal DOM tree for screen readers. The screen reader will announce the label and ignore the internal semantic blocks (e.g., it will skip announcing that it is an image and a caption, stripping away rich structural context).
+**Action:** When adding accessibility context like "(opens in a new tab)" to complex interactive elements like `<figure>` cards, do not place an `aria-label` on the wrapper link. Instead, append a visually hidden span (like `<span class="sr-only"> (opens in a new tab)</span>`) inside the textual component (e.g., the `<figcaption>`) to preserve the internal semantic structure.
