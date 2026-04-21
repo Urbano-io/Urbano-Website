@@ -29,3 +29,7 @@
 ## 2024-XX-XX - `aria-label` Overriding Internal DOM Tree Semantics
 **Learning:** Applying an `aria-label` to an `<a>` tag that wraps a complex semantic structure (like a `<figure>` and `<figcaption>`) completely overrides the internal DOM tree for screen readers. The screen reader will announce the label and ignore the internal semantic blocks (e.g., it will skip announcing that it is an image and a caption, stripping away rich structural context).
 **Action:** When adding accessibility context like "(opens in a new tab)" to complex interactive elements like `<figure>` cards, do not place an `aria-label` on the wrapper link. Instead, append a visually hidden span (like `<span class="sr-only"> (opens in a new tab)</span>`) inside the textual component (e.g., the `<figcaption>`) to preserve the internal semantic structure.
+
+## 2024-XX-XX - MkDocs Material Core Accessibility Overrides
+**Learning:** MkDocs Material core components (like `.md-search` and `.md-progress`) may occasionally lack comprehensive ARIA attributes for strict `axe-core` accessibility compliance out-of-the-box. Attempting to fix this via client-side JavaScript is brittle and degrades the core experience for users without JS.
+**Action:** When a core MkDocs Material component is missing critical accessibility attributes (like `aria-label`s on core dialogs/progress bars), use the `docs/overrides/partials/` templating feature to explicitly inject the missing native HTML/ARIA attributes at build time, rather than relying on JS or custom CSS logic.
