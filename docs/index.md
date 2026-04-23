@@ -214,9 +214,9 @@ hide:
 
 <div style="display: flex; justify-content: center; align-items: center; flex-wrap: wrap; gap: 2rem; margin: 3rem 0;" markdown>
 
-[![Cornell Systems Engineering](assets/images/logo-systemseng.svg){width="350" .skip-lightbox loading=lazy alt=""}](https://www.duffield.cornell.edu/sys/meng/){ .card target="_blank" rel="noopener noreferrer" aria-label="Cornell Systems Engineering (opens in a new tab)" }
+[![Cornell Systems Engineering](assets/images/logo-systemseng.svg){width="350" .skip-lightbox loading=lazy alt=""}](https://www.duffield.cornell.edu/sys/meng/){ .card target="_blank" rel="noopener noreferrer" aria-label="Cornell Systems Engineering (opens in a new tab)" title="Cornell Systems Engineering" }
 <span aria-hidden="true">:octicons-plus-24:</span>
-[![Environmental Systems Lab](assets/images/eslab.svg){width="320" .skip-lightbox loading=lazy alt=""}](https://aap.cornell.edu/faculty-labs-research-groups/){ .card target="_blank" rel="noopener noreferrer" aria-label="Environmental Systems Lab (opens in a new tab)" }
+[![Environmental Systems Lab](assets/images/eslab.svg){width="320" .skip-lightbox loading=lazy alt=""}](https://aap.cornell.edu/faculty-labs-research-groups/){ .card target="_blank" rel="noopener noreferrer" aria-label="Environmental Systems Lab (opens in a new tab)" title="Environmental Systems Lab" }
 
 </div>
 
@@ -231,10 +231,10 @@ Urbano is being developed as a cross-disciplinary project through a collaboratio
 
 <div class="grid" markdown>
 
-[![AAP](assets/images/AAP_logo_stacked.png){width="150" .skip-lightbox loading=lazy .center alt=""}](https://aap.cornell.edu/){ .card target="_blank" rel="noopener noreferrer" aria-label="Cornell AAP (opens in a new tab)" }
+[![AAP](assets/images/AAP_logo_stacked.png){width="150" .skip-lightbox loading=lazy .center alt=""}](https://aap.cornell.edu/){ .card target="_blank" rel="noopener noreferrer" aria-label="Cornell AAP (opens in a new tab)" title="Cornell AAP" }
 
-[![Cornell](assets/images/cornell.svg){width="125" .skip-lightbox loading=lazy .center alt=""}](https://www.cornell.edu/){ .card target="_blank" rel="noopener noreferrer" aria-label="Cornell University (opens in a new tab)" }
+[![Cornell](assets/images/cornell.svg){width="125" .skip-lightbox loading=lazy .center alt=""}](https://www.cornell.edu/){ .card target="_blank" rel="noopener noreferrer" aria-label="Cornell University (opens in a new tab)" title="Cornell University" }
 
-[![Atkinson](assets/images/atkinson.png){width="325" .skip-lightbox loading=lazy .center alt=""}](https://atkinson.cornell.edu/){ .card target="_blank" rel="noopener noreferrer" aria-label="Cornell Atkinson Center for Sustainability (opens in a new tab)" }
+[![Atkinson](assets/images/atkinson.png){width="325" .skip-lightbox loading=lazy .center alt=""}](https://atkinson.cornell.edu/){ .card target="_blank" rel="noopener noreferrer" aria-label="Cornell Atkinson Center for Sustainability (opens in a new tab)" title="Cornell Atkinson Center for Sustainability" }
 
 </div>
