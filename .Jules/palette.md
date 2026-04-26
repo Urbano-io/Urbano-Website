@@ -33,3 +33,7 @@
 ## 2024-XX-XX - MkDocs Material Core Accessibility Overrides
 **Learning:** MkDocs Material core components (like `.md-search` and `.md-progress`) may occasionally lack comprehensive ARIA attributes for strict `axe-core` accessibility compliance out-of-the-box. Attempting to fix this via client-side JavaScript is brittle and degrades the core experience for users without JS.
 **Action:** When a core MkDocs Material component is missing critical accessibility attributes (like `aria-label`s on core dialogs/progress bars), use the `docs/overrides/partials/` templating feature to explicitly inject the missing native HTML/ARIA attributes at build time, rather than relying on JS or custom CSS logic.
+
+## 2024-XX-XX - Distinguishing Inline Links from Surrounding Text
+**Learning:** Depending solely on color contrast to distinguish inline text links from surrounding body text is brittle and often fails WCAG `link-in-text-block` requirements, particularly when using custom themes or palettes. Only showing an underline on `:hover` or `:focus` means mobile users or users simply scanning the text cannot easily identify interactive links.
+**Action:** Always provide a permanent, non-color visual indicator for inline links embedded in text blocks. Applying a semi-transparent `text-decoration: underline` that becomes fully opaque on hover provides an elegant solution that satisfies accessibility requirements without visually overwhelming dense text paragraphs.
