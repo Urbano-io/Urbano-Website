@@ -146,11 +146,16 @@ span.faint {
   outline-offset: 4px;
 }
 
-/* UX/A11y Standard: Inline links within text blocks must have a visual interactive affordance on hover and focus */
-.md-typeset a:not(.md-button):not(.card):not(.headerlink):hover,
-.md-typeset a:not(.md-button):not(.card):not(.headerlink):focus-visible {
+/* UX/A11y Standard: Inline links within text blocks must be distinguishable from surrounding text */
+.md-typeset a:not(.md-button):not(.card):not(.headerlink):not(.md-content__button) {
   text-decoration: underline;
+  text-decoration-color: var(--md-accent-fg-color-transparent, rgba(64, 81, 181, 0.3));
   text-underline-offset: 2px;
+}
+
+.md-typeset a:not(.md-button):not(.card):not(.headerlink):not(.md-content__button):hover,
+.md-typeset a:not(.md-button):not(.card):not(.headerlink):not(.md-content__button):focus-visible {
+  text-decoration-color: currentColor;
 }
 
 .md-typeset a:not(.md-button):not(.card):not(.headerlink):focus-visible {
