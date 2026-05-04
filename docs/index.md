@@ -104,7 +104,10 @@ hide:
 }
 
 .mdx-users__testimonial figcaption {
-    transition: color 0.3s ease-in-out;
+    transition: color 0.3s ease-in-out, text-decoration-color 0.3s ease-in-out;
+    text-decoration: underline;
+    text-decoration-color: transparent;
+    text-underline-offset: 2px;
 }
 
 .mdx-users__testimonial a:active img {
@@ -115,8 +118,7 @@ hide:
 .mdx-users__testimonial a:hover figcaption,
 .mdx-users__testimonial a:focus-visible figcaption {
     color: #007acc;
-    text-decoration: underline;
-    text-underline-offset: 2px;
+    text-decoration-color: #007acc;
 }
 
 .mdx-users__testimonial a:active figcaption {

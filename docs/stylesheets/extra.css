@@ -151,6 +151,7 @@ span.faint {
   text-decoration: underline;
   text-decoration-color: var(--md-accent-fg-color-transparent, rgba(64, 81, 181, 0.3));
   text-underline-offset: 2px;
+  transition: text-decoration-color 0.2s ease-in-out;
 }
 
 .md-typeset a:not(.md-button):not(.card):not(.headerlink):not(.md-content__button):hover,

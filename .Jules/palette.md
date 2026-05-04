@@ -37,3 +37,6 @@
 ## 2024-XX-XX - Distinguishing Inline Links from Surrounding Text
 **Learning:** Depending solely on color contrast to distinguish inline text links from surrounding body text is brittle and often fails WCAG `link-in-text-block` requirements, particularly when using custom themes or palettes. Only showing an underline on `:hover` or `:focus` means mobile users or users simply scanning the text cannot easily identify interactive links.
 **Action:** Always provide a permanent, non-color visual indicator for inline links embedded in text blocks. Applying a semi-transparent `text-decoration: underline` that becomes fully opaque on hover provides an elegant solution that satisfies accessibility requirements without visually overwhelming dense text paragraphs.
+## 2026-05-04 - Smooth Underline Transitions for Inline Links
+**Learning:** In MkDocs Material and custom HTML components, inline links and cards often have `text-decoration: underline` applied abruptly on hover, causing a harsh microscopic layout shift or visual snap that can be jarring to users.
+**Action:** Always apply a transparent baseline underline (`text-decoration: underline; text-decoration-color: transparent;`) to the resting state and animate only the `text-decoration-color` using `transition` on hover and focus. This provides a fluid, high-quality tactile response without DOM layout shifts.
