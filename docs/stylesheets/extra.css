@@ -130,15 +130,17 @@ span.faint {
 }
 
 .md-banner a[rel="me noopener noreferrer"] {
-  transition: opacity 0.2s ease-in-out, outline 0.2s ease-in-out;
+  transition: opacity 0.2s ease-in-out, outline 0.2s ease-in-out, text-decoration-color 0.2s ease-in-out;
   border-radius: 4px;
+  text-decoration: underline !important;
+  text-decoration-color: transparent !important;
+  text-underline-offset: 2px !important;
 }
 
 .md-banner a[rel="me noopener noreferrer"]:hover,
 .md-banner a[rel="me noopener noreferrer"]:focus-visible {
   opacity: 0.8;
-  text-decoration: underline !important;
-  text-underline-offset: 2px !important;
+  text-decoration-color: #ffffff !important;
 }
 
 .md-banner a[rel="me noopener noreferrer"]:focus-visible {
