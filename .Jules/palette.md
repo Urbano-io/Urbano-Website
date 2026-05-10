@@ -40,3 +40,7 @@
 ## 2026-05-04 - Smooth Underline Transitions for Inline Links
 **Learning:** In MkDocs Material and custom HTML components, inline links and cards often have `text-decoration: underline` applied abruptly on hover, causing a harsh microscopic layout shift or visual snap that can be jarring to users.
 **Action:** Always apply a transparent baseline underline (`text-decoration: underline; text-decoration-color: transparent;`) to the resting state and animate only the `text-decoration-color` using `transition` on hover and focus. This provides a fluid, high-quality tactile response without DOM layout shifts.
+
+## 2024-05-10 - Redundant Alt Text on Linked Logos
+**Learning:** In MkDocs Material, the default `partials/logo.html` template uses `alt="logo"` for the site image. However, when the logo is wrapped in an `<a>` tag that already has an explicitly defined `aria-label` (e.g., in `partials/header.html` or `partials/nav.html` where it links back to the home page), the screen reader will redundantly announce both the link's label and the image's "logo" alt text.
+**Action:** To prevent redundant screen reader announcements, override `partials/logo.html` and explicitly set `alt=""`. This ensures that the wrapping link's ARIA label serves as the sole, clear description for the interactive element.
