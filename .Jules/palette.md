@@ -44,3 +44,7 @@
 ## 2024-05-10 - Redundant Alt Text on Linked Logos
 **Learning:** In MkDocs Material, the default `partials/logo.html` template uses `alt="logo"` for the site image. However, when the logo is wrapped in an `<a>` tag that already has an explicitly defined `aria-label` (e.g., in `partials/header.html` or `partials/nav.html` where it links back to the home page), the screen reader will redundantly announce both the link's label and the image's "logo" alt text.
 **Action:** To prevent redundant screen reader announcements, override `partials/logo.html` and explicitly set `alt=""`. This ensures that the wrapping link's ARIA label serves as the sole, clear description for the interactive element.
+
+## 2024-05-11 - [Search Localization Keys]
+**Learning:** In MkDocs Material custom overrides (e.g., `partials/search.html`), using incorrect or outdated translation keys (like `lang.t('search.clear')` instead of `lang.t('search.reset')` or `lang.t('search')` instead of `lang.t('search.placeholder')`) causes the raw key string to be displayed to users visually and read by screen readers.
+**Action:** When overriding MkDocs Material partials, verify the translation keys against the current version's language files (e.g., `templates/partials/languages/en.html`) to ensure correct localization strings are used.
