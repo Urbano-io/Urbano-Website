@@ -126,7 +126,21 @@ span.faint {
 
 .md-copyright a {
   text-decoration: underline !important;
+  text-decoration-color: transparent !important;
   text-underline-offset: 2px !important;
+  transition: opacity 0.2s ease-in-out, outline 0.2s ease-in-out, text-decoration-color 0.2s ease-in-out;
+  border-radius: 4px;
+}
+
+.md-copyright a:hover,
+.md-copyright a:focus-visible {
+  opacity: 0.8;
+  text-decoration-color: #ffffff !important;
+}
+
+.md-copyright a:focus-visible {
+  outline: 2px solid #ffffff;
+  outline-offset: 4px;
 }
 
 .md-banner a[rel="me noopener noreferrer"] {

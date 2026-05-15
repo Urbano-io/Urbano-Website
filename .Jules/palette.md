@@ -48,3 +48,7 @@
 ## 2024-05-11 - [Search Localization Keys]
 **Learning:** In MkDocs Material custom overrides (e.g., `partials/search.html`), using incorrect or outdated translation keys (like `lang.t('search.clear')` instead of `lang.t('search.reset')` or `lang.t('search')` instead of `lang.t('search.placeholder')`) causes the raw key string to be displayed to users visually and read by screen readers.
 **Action:** When overriding MkDocs Material partials, verify the translation keys against the current version's language files (e.g., `templates/partials/languages/en.html`) to ensure correct localization strings are used.
+
+## 2024-05-15 - Explicit Focus & Hover States on MkDocs Material Links
+**Learning:** In the MkDocs Material theme, generic global link styles (like `.md-typeset a`) do not inherently cascade to specific structural component links such as the footer `.md-copyright a` links, leaving them without standard UX/A11y tactile feedback states like `:hover` and `:focus-visible`.
+**Action:** When customizing MkDocs Material, ensure that structural elements outside the main markdown body (like banners, footers, headers) explicitly define accessible hover and focus indicator states if the global link styling doesn't cover them.
